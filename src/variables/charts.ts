@@ -259,7 +259,7 @@ export const barChartOptionsWeeklyRevenue = {
 export const lineChartDataTotalSpent = [
   {
     name: 'Your Portfolio',
-    data: [1000, 1100, 1200, 1000, 1350, 1500,1600,1700,1900,1910,1800,1900],
+    data: [1000, 1100, 1200, 1000, 1350, 1500,1600,1700,1900,1910,1800,2100],
     color: '#4318FF',
   },
   {
@@ -275,7 +275,7 @@ export const lineChartOptionsTotalSpent = {
   },
 
   theme: {
-    mode: 'dark',
+    mode: 'light',
   },
   chart: {
     type: 'line',
