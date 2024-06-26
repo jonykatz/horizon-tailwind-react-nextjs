@@ -258,13 +258,13 @@ export const barChartOptionsWeeklyRevenue = {
 
 export const lineChartDataTotalSpent = [
   {
-    name: 'Revenue',
-    data: [50, 64, 48, 66, 49, 68],
+    name: 'Your Portfolio',
+    data: [1000, 1100, 1200, 1000, 1350, 1500,1600,1700,1900,1910,1800,1900],
     color: '#4318FF',
   },
   {
-    name: 'Profit',
-    data: [30, 40, 24, 46, 20, 46],
+    name: 'S&P 500',
+    data: [1000, 1050, 1100, 1150, 1200, 1250,1275,1280,1300,1350,1400,1600],
     color: '#6AD2FF',
   },
 ];
@@ -275,7 +275,7 @@ export const lineChartOptionsTotalSpent = {
   },
 
   theme: {
-    mode: 'light',
+    mode: 'dark',
   },
   chart: {
     type: 'line',
@@ -289,7 +289,7 @@ export const lineChartOptionsTotalSpent = {
     enabled: false,
   },
   stroke: {
-    curve: 'smooth',
+    curve: 'straight',
   },
 
   tooltip: {
@@ -322,7 +322,7 @@ export const lineChartOptionsTotalSpent = {
     },
     type: 'text',
     range: undefined,
-    categories: ['SEP', 'OCT', 'NOV', 'DEC', 'JAN', 'FEB'],
+    categories: ['JAN', 'FEB','MAR', 'APR','MAY', 'JUN','JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'],
   },
 
   yaxis: {
